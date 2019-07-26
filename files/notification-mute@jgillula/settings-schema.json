@@ -38,7 +38,7 @@
     "keybinding" : {
         "type" : "keybinding",
         "description" : "Set the keybinding for toggling notification mute",
-        "default" : "<Control>i",
+        "default" : "",
         "indent": true
     }
 }

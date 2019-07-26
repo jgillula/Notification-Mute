@@ -1,5 +1,5 @@
 {
     "uuid": "notification-mute@jgillula",
     "name": "Notification Mute",
-    "description": "Click to mute notifications, click again to unmute"
+    "description": "An applet that allows you to toggle muting notifications by clicking on the applet or via shortcut key."
 }

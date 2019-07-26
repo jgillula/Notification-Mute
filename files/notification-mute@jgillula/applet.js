@@ -136,7 +136,11 @@ MyApplet.prototype = {
         if (this.inhibited) {
             if (this.use_custom_on_icon) {
                 if (this.icon_path_on) {
-                    this.set_applet_icon_path(this.on_icon)
+                    if (this.on_icon.indexOf("symbolic") > -1) {
+                        this.set_applet_icon_symbolic_name(this.on_icon)
+                    } else {
+                        this.set_applet_icon_path(this.on_icon)
+                    }
                 } else {
                     if (this.on_icon.indexOf("symbolic") > -1) {
                         this.set_applet_icon_symbolic_name(this.on_icon)
